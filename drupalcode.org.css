@@ -1,0 +1,10 @@
+body {
+  font-family: Inconsolata;
+  font-size: 16px;
+}
+.str {
+  background: none;
+}
+td.pre, div.pre, div.diff {
+  white-space: pre-wrap;
+}

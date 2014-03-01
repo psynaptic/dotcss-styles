@@ -1,0 +1,14 @@
+tt, code, pre,
+.file-data pre,
+.line-data,
+.file-data .line-numbers,
+input.url-field,
+.repository-with-sidebar .repository-sidebar input.clone,
+.diff-line-num,
+.blob-line-nums {
+  font-family: Inconsolata;
+}
+tt, code, pre {
+  font-size: 14px;
+}
+

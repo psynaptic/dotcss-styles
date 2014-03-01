@@ -1,0 +1,16 @@
+#mw-page-base,
+#mw-head-base,
+#mw-head,
+#mw-panel,
+#siteNotice,
+#footer,
+#siteSub {
+  display: none;
+}
+div#content {
+  margin-left: 0;
+}
+body {
+  font-size: 1.2em;
+}
+

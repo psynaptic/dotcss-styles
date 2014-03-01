@@ -1,0 +1,27 @@
+.syntaxhighlighter a,
+.syntaxhighlighter div,
+.syntaxhighlighter code,
+.syntaxhighlighter table,
+.syntaxhighlighter table td,
+.syntaxhighlighter table tr,
+.syntaxhighlighter table tbody,
+.syntaxhighlighter table thead,
+.syntaxhighlighter table caption,
+.syntaxhighlighter textarea,
+pre {
+  font-family: Inconsolata !important;
+}
+.pdl .syntaxhighlighter a,
+.pdl .syntaxhighlighter div,
+.pdl .syntaxhighlighter code,
+.pdl .syntaxhighlighter table,
+.pdl .syntaxhighlighter table td,
+.pdl .syntaxhighlighter table tr,
+.pdl .syntaxhighlighter table tbody,
+.pdl .syntaxhighlighter table thead,
+.pdl .syntaxhighlighter table caption,
+.pdl .syntaxhighlighter textarea,
+pre {
+  font-size: 16px !important;
+}
+
