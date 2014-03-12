@@ -1,0 +1,217 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+#header,
+#footer,
+#page,
+#header-inner {
+  width: 100%;
+}
+.form-type-managed-file .description,
+.tabledrag-toggle-weight,
+.filter-help,
+.comment li.comment-report,
+#footer,
+#header-right,
+#nav-masthead .homepage,
+#block-system-main-menu,
+#block-search-form {
+  display: none;
+}
+#nav-masthead {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 397px;
+  z-index: 9999;
+}
+#nav-masthead ul li a,
+#nav-masthead ul li a:hover,
+#nav-masthead ul li a.active {
+  background: none;
+  color: #fff;
+}
+#userinfo {
+  float: none;
+}
+#header {
+  height: 70px;
+}
+input[type="submit"] {
+  font-size: 1em;
+  padding: .5em 1.5em;
+  text-transform: uppercase;
+}
+input,
+select,
+textarea {
+  font-size: 1em;
+}
+input[type="text"],
+html.js input.form-autocomplete {
+  background: #fff !important;
+}
+a.tabledrag-handle .handle {
+  height: 25px;
+  width: 25px;
+}
+.form-type-managed-file label {
+  margin-bottom: .5em;
+}
+.form-type-managed-file input[type="submit"] {
+  display: block;
+  margin: 1em 0 2em;
+}
+#extended-file-field-table-field-issue-files,
+.field-widget-file-generic table {
+  font-size: .9em;
+}
+.submitted {
+  margin-bottom: .5em !important;
+}
+#homebox-block-drupalorg_project_bingo-block li > strong {
+  margin: 1em 0 .5em;
+  display: block;
+}
+.homebox-portlet .content {
+  font-size: .9em;
+}
+#homebox .homebox-column-wrapper-3 {
+  display: none !important;
+}
+#homebox .homebox-column-wrapper-2 {
+  width: 65%;
+  margin-right: 0;
+}
+.view-project-issue-user-issues-searchapi table {
+  width: 100%;
+}
+.view-project-issue-user-issues-searchapi table .project-title {
+  float: right;
+  margin-left: 1em;
+}
+#homebox-buttons {
+  position: absolute;
+  top: -103px;
+  right: 0;
+  margin-right: 220px;
+}
+#aside {
+  font-size: .9em;
+}
+.breadcrumb {
+  margin-bottom: .5em;
+}
+.node-type-project-issue #tabs {
+  display: none;
+}
+.field-name-field-issue-files .upload-button {
+  font-size: .9em;
+}
+.comment {
+  margin: 0;
+  padding-top: 1em;
+  position: relative;
+}
+.comment .links {
+  position: absolute;
+  top: 1em;
+  right: 0;
+}
+.comments .permalink {
+  float: left;
+  margin-right: .5em;
+  font-size: 1em;
+  line-height: inherit;
+}
+.comments .submitted {
+  float: left;
+}
+.field-name-field-issue-changes,
+.field-name-comment-body {
+  clear: left;
+}
+.page-project-issues .views-exposed-form select {
+  width: 150px;
+  margin-top: 7px;
+}
+.page-project-issues .content > .links {
+  position: absolute;
+  right: -5px;
+  top: -2.6em;
+}
+.page-project-issues #main {
+  position: relative;
+}
+.page-project-issues .views-field-title {
+  width: 75%;
+}
+.page-project-issues .views-field-field-issue-status,
+.page-project-issues .views-field-field-issue-priority,
+.page-project-issues .views-field-last-comment-timestamp,
+.page-project-issues .views-field-created,
+.page-project-issues .views-field-field-issue-assigned,
+.page-project-issues .views-field-comment-count,
+.page-project-issues .views-field-field-issue-category {
+  display: none;
+}
+.page-project-issues .project-issue {
+  width: 100%;
+}
+.page-project-issues #feeds {
+  position: absolute;
+  font-size: .9em;
+  top: -79px;
+  right: 0;
+  display: none;
+}
+.page-project-issues .feed-icon {
+  position: relative;
+  top: 2px;
+}
+.page-project-issues #content {
+  margin-bottom: 0;
+}
+.page-project-issues .project-issue th,
+.page-project-issues .project-issue td {
+  padding: .5em;
+}
+.page-node-add-project-issue .breadcrumb {
+  float: right;
+}
+.page-project-issues .breadcrumb a:first-child::before {
+  content: "\00ab  ";
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color:#6BB5155;
+}
+.page-node-add-project-issue #page-title-tools,
+.page-node-add-project-issue #nav-content,
+.page-project-issues #page-title-tools,
+.page-project-issues #nav-content,
+.node-type-project-module #page-title-tools,
+.node-type-project-module #nav-content,
+.node-type-project-theme #page-title-tools,
+.node-type-project-theme #nav-content,
+.node-type-project-distribution #page-title-tools,
+.node-type-project-distribution #nav-content,
+.node-type-project-theme-engine #page-title-tools,
+.node-type-project-theme-engine #nav-content,
+.node-type-project-issue #page-title-tools,
+.node-type-project-issue #nav-content,
+.page-node-add-project-issue-drupal #block-system-help,
+.page-node-add-project-issue-drupal .messages.status.site,
+.page-node-add-project-issue-drupal .messages.status.project {
+  display: none;
+}
+.node-project-module .links li,
+.node-project-distribution .links li,
+.node-project-theme-engine .links li,
+.node-project-theme .links li {
+  float: left;
+  margin-right: 1.5em;
+}
+

@@ -11,6 +11,21 @@ div#content {
   margin-left: 0;
 }
 body {
-  font-size: 1.2em;
+  font-size: 1.4em;
+}
+#catlinks {
+  font-size: .9em;
+}
+#articleFeedbackv5-panel {
+  width: 100% !important;
+  font-size: .8em;
+}
+#toc {
+  margin: 1.5em 0;
+}
+.mw-geshi *,
+pre {
+  margin: 1em 0;
+  font-family: Inconsolata !important;
 }
 

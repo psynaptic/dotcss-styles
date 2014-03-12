@@ -1,0 +1,10 @@
+#content-inner {
+  font-size: 16px;
+}
+#content-inner img {
+  width: 100%;
+  height: auto;
+}
+#content-inner p {
+  word-break: break-word;
+}

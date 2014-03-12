@@ -1,0 +1,83 @@
+body {
+  font-size: 1.2em;
+  margin: 0;
+  color: #333;
+  background: #eee;
+  font-family: "Clear Sans";
+}
+#popup_header {
+  display: none;
+}
+body > form {
+  width: 98%;
+  margin-left: 1%;
+}
+body > form input[type=text],
+body > form input#tags,
+body > form textarea {
+  font-size: 1em;
+  width: 100%;
+  padding: .5em;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: .5em;
+  font-family: "Clear Sans";
+}
+body > form input[type=submit] {
+  -webkit-appearance: none;
+  border-radius: 5px;
+  border: 0;
+  font-size: 1em;
+  padding: .5em 1em;
+  margin: .5em 0 0;
+  color: #fff;
+  background: linear-gradient(to bottom, #333 1%, #444 100%);
+}
+body > form table {
+  width: 100%;
+}
+body > form td,
+body > form tr {
+  display: block;
+}
+body > form tr td:first-child {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .8em;
+  color: #777;
+}
+body > form input#private,
+body > form input#toread {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+body > form input#private:checked + label,
+body > form input#toread:checked + label {
+  background: #BE1E7A;
+}
+body > form label[for=private],
+body > form label[for=toread] {
+  background: #A290A2;
+  -webkit-user-select: none;
+  user-select: none;
+  padding: .2em .5em;
+  text-transform: uppercase;
+  font-size: .8em;
+  color: #eee;
+  border-radius: 5px;
+}
+body > form #suggestion_row {
+  height: 40px !important;
+}
+body > form #suggestion_row td:first-child {
+  display: block;
+  float: left;
+  padding-top: 6px;
+  margin-right: 10px;
+}
+body > form #suggested a {
+  color: #718FCC;
+  font-size: .9em;
+}
+

@@ -1,0 +1,37 @@
+
+#trick,
+#goto,
+footer,
+.page-tools {
+  display: none;
+}
+html,
+body {
+  background: #E6E6E6;
+}
+body {
+  font-size: 1.2em;
+}
+#layout,
+#breadcrumbs {
+  width: 100%;
+}
+.navbar-fixed-top {
+  position: relative;
+}
+#breadcrumbs {
+  font-size: .7em;
+}
+.methodsynopsis,
+.classsynopsis,
+.parameter,
+.function,
+.refname,
+code,
+pre {
+  font-family: Inconsolata !important;
+  font-size: 1em !important;
+}
+.refnamediv > .refname {
+  font-size: 1.5em !important;
+}

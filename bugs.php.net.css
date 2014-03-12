@@ -1,0 +1,25 @@
+.note,
+.changeset {
+  width: 98%;
+  font-size: 1.2em;
+  font-family: Inconsolata;
+}
+#vote {
+  overflow: hidden;
+}
+form#vote fieldset {
+  float: left;
+  border: none;
+  background: #eef;
+  padding: 1.5em .5em .5em;
+}
+#vote legend {
+  position: relative;
+  top: 1em;
+}
+
+#vote fieldset > div {
+  padding-left: .5em;
+  font-size: .9em;
+}
+

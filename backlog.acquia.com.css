@@ -1,0 +1,22 @@
+.tabs2 li[data-id=transitions-summary-tabpanel] {
+  display: none !important;
+}
+#ghx-column-header-group.ghx-fixed,
+#stalker {
+  position: static !important;
+}
+#footer,
+#js-swimlane-header-stalker,
+.stalker-placeholder {
+  display: none !important;
+}
+.preformatted,
+div.wiki-edit .preformatted,
+.code,
+div.wiki-edit .code {
+  font-size: 1em;
+}
+#ghx-pool {
+  padding: 10px 10px 0 !important;
+}
+

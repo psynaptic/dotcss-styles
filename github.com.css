@@ -6,9 +6,9 @@ input.url-field,
 .repository-with-sidebar .repository-sidebar input.clone,
 .diff-line-num,
 .blob-line-nums {
-  font-family: Inconsolata;
+  font-family: Inconsolata !important;
 }
 tt, code, pre {
-  font-size: 14px;
+  font-size: 14px !important;
 }
 

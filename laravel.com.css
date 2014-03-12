@@ -1,0 +1,8 @@
+.prettyprint {
+  line-height: 1.2;
+}
+.prettyprint code {
+  font-size: 16px;
+  font-family: Inconsolata;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
